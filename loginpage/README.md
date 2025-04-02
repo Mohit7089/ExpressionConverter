@@ -1,18 +1,41 @@
-## Getting Started
+# ExpressionConveter
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Project Overview
+This project is a **ExpressionConveter** developed in **Java**. It consists of two main components:
 
-## Folder Structure
+### 1. **Login System** (By Mohit Soni)
+- Built using **Java Swing** and **AWT** for the graphical user interface.
+- Uses **JDBC** for database connectivity to manage user authentication.
+- Features:
+  - User registration and login functionality.
+  - Secure password storage and retrieval.
+  - Error handling for incorrect credentials.
 
-The workspace contains two folders by default, where:
+### 2. **Expression Converter** (By Piyush Agnihotri)
+- Developed using **Java Swing** for GUI.
+- Implements **Multithreading** for efficient processing.
+- Converts mathematical expressions between different notations (Infix, Prefix, and Postfix).
+- Features:
+  - Real-time conversion of expressions.
+  - Supports step-by-step evaluation for better understanding.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Run the Project
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repository.git
+   ```
+2. Ensure you have Java installed (JDK 8 or later).
+3. Set up the database (for the login system) and configure JDBC connection.
+4. Compile and run the Java files:
+   ```sh
+   javac Main.java
+   java Main
+   ```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Contributors
+- **Mohit Soni** - Developed the Login System.
+- **Piyush Agnihotri** - Developed the Expression Converter.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Feel free to contribute or raise issues in the repository!
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
