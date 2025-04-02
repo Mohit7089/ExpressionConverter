@@ -22,15 +22,11 @@ This project is a **ExpressionConveter** developed in **Java**. It consists of t
 ## How to Run the Project
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repository.git
+   github.com/Mohit7089/ExpressionConverter.git
    ```
 2. Ensure you have Java installed (JDK 8 or later).
 3. Set up the database (for the login system) and configure JDBC connection.
-4. Compile and run the Java files:
-   ```sh
-   javac Main.java
-   java Main
-   ```
+
 
 ## Contributors
 - **Mohit Soni** - Developed the Login System.
