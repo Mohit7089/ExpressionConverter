@@ -45,15 +45,15 @@ A full-fledged Java Swing project combining:
 
 🔸 1. Database Setup
 
-// CREATE DATABASE userdb;
+ CREATE DATABASE userdb;
 
-// USE userdb;
+ USE userdb;
 
-// CREATE TABLE users (
-// id INT AUTO_INCREMENT PRIMARY KEY,
-// username VARCHAR(100) NOT NULL UNIQUE,
-// password VARCHAR(100) NOT NULL
-// );
+CREATE TABLE users (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ username VARCHAR(100) NOT NULL UNIQUE,
+ password VARCHAR(100) NOT NULL
+ );
 
 🔸 2. Configure Database in `DatabaseHelper.java`
 
